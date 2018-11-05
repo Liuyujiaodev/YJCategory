@@ -19,7 +19,7 @@ s.source       = { :git => "https://github.com/Liuyujiaodev/YJCategory.git", :ta
 s.description = %{
 。
 }
-s.source_files = "CommonCategory","CommonCategory/**/*.{h,m}"
+s.source_files = "CommonCategory","CommonCategory/**/*.{h,m}","CommonCategory/NSDictionary/*.{h,m}","CommonCategory/NSString/*.{h,m}","CommonCategory/UIButton/*.{h,m}","CommonCategory/UIColor/*.{h,m}","CommonCategory/UIImage/*.{h,m}","CommonCategory/UIView/*.{h,m}"
 s.frameworks = 'Foundation', 'UIKit'
 s.requires_arc = true
 s.platform = :ios, '8.0'
