@@ -43,7 +43,7 @@
     NSString* urlSchemes;
     for (NSDictionary* types in bundleUrltypes) {
         if ([[types objectForKey:@"CFBundleURLName"] isEqualToString:Bundle_Identifier]) {
-            NSArray* allUrlSchemes = (NSArray*)[types objectWithKey:@"CFBundleURLSchemes"];
+            NSArray* allUrlSchemes = (NSArray*)[types objectForKey:@"CFBundleURLSchemes"];
             if (allUrlSchemes.count > 0) {
                 urlSchemes = [allUrlSchemes objectAtIndex:0];
                 return urlSchemes;
