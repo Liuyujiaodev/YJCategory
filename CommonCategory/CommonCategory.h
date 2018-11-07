@@ -15,6 +15,7 @@
 #import "UIColor+category.h"
 #import "UIView+Base.h"
 #import "NSString+Base.h"
+#import "UIViewController+Base.h"
 
 #endif
 

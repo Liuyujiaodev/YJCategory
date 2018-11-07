@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name     = "YJCategory"
-s.version  = "1.0.0"
+s.version  = "1.2.0"
 s.license  = "MIT"
 s.summary  = "iOS分类"
 s.homepage = "https://github.com/Liuyujiaodev/YJCategory.git"
@@ -19,7 +19,7 @@ s.source       = { :git => "https://github.com/Liuyujiaodev/YJCategory.git", :ta
 s.description = %{
 。
 }
-s.source_files = "CommonCategory","CommonCategory/**/*.{h,m}","CommonCategory/NSDictionary/*.{h,m}","CommonCategory/NSString/*.{h,m}","CommonCategory/UIButton/*.{h,m}","CommonCategory/UIColor/*.{h,m}","CommonCategory/UIImage/*.{h,m}","CommonCategory/UIView/*.{h,m}"
+s.source_files = "CommonCategory","CommonCategory/**/*.{h,m}","CommonCategory/UIViewController/*.{h,m}","CommonCategory/NSDictionary/*.{h,m}","CommonCategory/NSString/*.{h,m}","CommonCategory/UIButton/*.{h,m}","CommonCategory/UIColor/*.{h,m}","CommonCategory/UIImage/*.{h,m}","CommonCategory/UIView/*.{h,m}"
 s.frameworks = 'Foundation', 'UIKit'
 s.requires_arc = true
 s.platform = :ios, '8.0'
